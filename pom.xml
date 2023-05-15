@@ -8,7 +8,7 @@
   
   <properties>
 	  <java.version>17</java.version>
-	  <javafx.version>17.0.1</javafx.version>
+	  <javafx.version>17.0.7</javafx.version>
 	  <maven.compiler.source>${java.version}</maven.compiler.source>
 	  <maven.compiler.target>${java.version}</maven.compiler.target>
   </properties>
