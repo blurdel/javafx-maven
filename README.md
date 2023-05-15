@@ -1,0 +1,7 @@
+# javafx-maven
+Create JavaFX applications using maven
+
+https://openjfx.io/openjfx-docs/#maven
+
+# To run in STS/Eclipse, add VM arguments in your Run Configuration
+--module-path /home/david/Programs/javafx-sdk-17.0.7/lib --add-modules=javafx.controls,javafx.fxml
