@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.control.Button?>
+
+<HBox alignment="center" spacing="5.0" stylesheets="@demo.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" 
+	fx:controller="fxtest.fxml.FxmlController">
+	
+	<children>
+		<!-- Label text="${textField.text}" /-->
+		<Label text="Some Label" />
+		
+		<TextField fx:id="txtName" />
+		
+		<Button fx:id="btnSubmit" onAction="#btnSubmitHandler" styleClass="custom-button" text="Click Me" />
+	</children>
+	
+</HBox>

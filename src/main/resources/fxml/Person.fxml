@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import fxtest.fxml.Person?>
+
+<!-- Inject values on creation  -->
+<Person firstName="Zoey" lastName="Bear" xmlns:fx="http://javafx.com/fxml/1" />
+
