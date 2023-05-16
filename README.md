@@ -5,5 +5,9 @@ https://openjfx.io/openjfx-docs/#maven
 
 mvn clean javafx:run
 
-To run in STS/Eclipse, add VM arguments in your Run Configuration<br>
---module-path /home/<USER>/Programs/javafx-sdk-17.0.7/lib --add-modules=javafx.controls,javafx.fxml
+
+Add the PATH_TO_FX path to Eclipse -> Preferences -> Run/Debug -> String Substitution -> New...  
+PATH_TO_FX = /home/user/Programs/javafx-sdk-17.0.7/lib
+
+To run in STS/Eclipse, add VM arguments in your Run Configuration  
+--module-path ${PATH_TO_FX} --add-modules=javafx.controls,javafx.fxml
