@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.*?>
+<?scenebuilder-stylesheet mailStyles.css?>
+<?import java.net.*?>
+
+
+<BorderPane prefHeight="300.0" prefWidth="300.0" 
+        xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2"
+        fx:controller="fxtest.border.Controller">
+    
+    <top>
+        <HBox prefHeight="100.0" prefWidth="200.0">
+        	<Button text="Top Pane" />
+        </HBox>
+    </top>    
+    
+    <left>
+        <VBox prefHeight="200.0" prefWidth="100.0">
+        	<Label text="Left" />
+    	</VBox>
+    </left>
+    
+    <center>
+        <Pane prefHeight="200.0" prefWidth="200.0">
+        	<Label text="Center" />
+    	</Pane>
+    </center>
+    
+    <right>
+        <VBox prefHeight="200.0" prefWidth="100.0">
+        	<Label text="Right" />
+    	</VBox>
+    </right>
+    
+    <bottom>
+        <Pane prefHeight="200.0" prefWidth="200.0">
+        	<Label text="Bottom" />
+    	</Pane>
+    </bottom>
+        
+    <stylesheets>
+        <URL value="@mainStyles.css" />
+    </stylesheets>
+    
+</BorderPane>
